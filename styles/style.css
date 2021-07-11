@@ -73,3 +73,9 @@ body.fotos #navegacao a#fotos{
      background: #de003e;
      cursor: text;
 }
+
+/*Configurando layout de trâs colunas */
+
+#conteudo{
+    background:#f5f5f5 ;
+}
