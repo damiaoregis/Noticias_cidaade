@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Notícias cidade - Seu site de notícias</title>
+    <title>Brasil</title>
 </head>
-<body class="brasil">
+<body id="duas-colunas" class="brasil">
     <div id="container">
-        <div id="topo">
+        <!--Inicio container -->
+        <div id="topo">  
+              <!--Inicio topo -->
             <h1 class="logo">Notícias cidade</h1>
             <ul id="navegacao">
                 <li class="primeiro">
@@ -34,6 +36,96 @@
                     <a id="fotos" href="fotos.html">Fotos</a>
                 </li>
             </ul>
+        </div><!--fim topo-->
+        <div id="conteudo"> <!--Inicio contaúdo -->
+            <div id="primario"> 
+                <div class="caixa destaque" >
+                    <h2>Destaques</h2>
+                    <div class="caixa-conteudo">
+                       <h3>Nova legislação</h3>
+                       <img class="imagem-principal" src="imagens/taxi.jpg" width="100%"> 
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicin.</p>
+                       <a href="">Leia mais!</a>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="imagens/mundo.jpg" width="80">
+                                    <h3>Crise da Covid-19</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicin.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicin.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/espaço.jpg" width="80">
+                                    <h3>NASA anúncia viajem interestelar</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicin.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/taxi.jpg" width="80">
+                                    <h3>homem vai a lua outra vez</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicin.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicin.</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="lateral"><!--Inicio lateral -->
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                           <li><a href="">José Almeida</a></li>
+                           <li><a href="">Natan Oliver</a></li>
+                           <li><a href="">João Medeiros</a></li>
+                           <li><a href="">Luis Miranda</a></li>
+                           <li><a href="">Carlos Albuquerpque</a></li> 
+                           <li><a href="">Michely Barbosa</a></li>
+                           <li><a href="">Daniel Silva</a></li>
+                           <li><a href="">André Melo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                       <form action="">
+                           <div>
+                               <label for="email">E-mail:</label>
+                               <input type="text" name="email" id="email" placeholder="E-mail">
+                           </div>
+                           <input class="submit" type="submit" value="Cadastrar">
+                       </form>
+                    </div>
+                </div>
+            </div> <!--fim laterla  -->
+        </div><!--fim conteúdo--> 
+    </div><!--fim container-->
+    <div id="container-rodape" style="clear: both;"> 
+        <div id="rodape">
+            &copy; Copyright 2000-2021 Notícias cidade
+
         </div>
     </div>
 </body>
